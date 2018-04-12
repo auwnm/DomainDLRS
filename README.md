@@ -1,1 +1,2 @@
 # DomainDLRS
+DomainDLRS is a hierarchical, generative probabilistic model containing three levels corresponding to species, genes, and domains, respectively. It simultanously reconstructs the domain and gene evlulitonay histories in the light of a given species tree. It is implemented in Java. It takes a dated species tree together with a multiple sequence alignment for each domain family as input and outputs an estimated posterior distribution over reconciled gene and domain trees.
