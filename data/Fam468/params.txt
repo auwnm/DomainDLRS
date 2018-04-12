@@ -1,0 +1,29 @@
+#DomainDLRS Parameters
+
+# Path of the folder containing files
+path = /Users/sayyedmuhammad/git/DomainDLRS/data/Fam468/
+#path = ./
+
+numberOfDomains = 2
+outPrefix = ZNF468
+substitutionModel = JC69
+
+speciesTreeFile = species.nwk
+#geneTree       = (BT_G558,(MS_G558,((CJ_G558,(HS_G558,PT_G558)),(HS_G557,PT_G557))));
+geneTree        = null
+geneMap         = gene.map
+
+domainMap   = KRAB.map
+domainMSA   = KRAB.afa
+
+domainMap   = ZNF.map
+domainMSA   = ZNF.afa
+
+
+#DomainDLRS Tunning Parameters
+
+maxIteration = 1000000
+thinningFactor = 100
+useNativeCode = False
+runType = MCMC
+

@@ -1,0 +1,17 @@
+# Directories #
+/build/
+/bin/
+
+# OS Files #
+.DS_Store
+
+# Other
+.settings/
+.buildpath
+
+*.class
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+
