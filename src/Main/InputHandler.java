@@ -19,7 +19,7 @@ public class InputHandler {
 					+ "DomainDLRS is a MCMC based application for studying the domain evolution within \n"
 					+ "gene & species trees developed at KTH Computational Biology Department with     \n"
 					+ "Science for Life Laboratory (SciLifeLab) in Stockholm, Sweden.\n\n"
-					+ "Releases, source code and tutorial: https://github.com/XYZ/DomainDLRS\n\n"
+					+ "Releases, source code and tutorial: https://github.com/auwnm/DomainDLRS\n\n"
 					+ "License: DomainDLRS is available under the New XYZ License.\n");
 			System.out.println("Usage: java -jar domainDLRS.jar -p <ParameterFile> \n");
 			System.out.println("Help : java -jar domainDLRS.jar -h                 \n");
